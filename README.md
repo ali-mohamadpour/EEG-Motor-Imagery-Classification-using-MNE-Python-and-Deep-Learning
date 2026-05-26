@@ -249,7 +249,7 @@ Visualization of multichannel EEG recordings before preprocessing.
 
 Frequency-domain analysis showing neural rhythms.
 
-![PSD](figures/psd.png)
+![PSD](figures/psd_plot.png)
 
 
 
