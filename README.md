@@ -2,7 +2,7 @@
 
 Advanced EEG signal processing and motor imagery classification pipeline using MNE-Python, classical machine learning, CSP filtering, and deep learning architectures.
 
----
+
 
 # Open in Google Colab
 
@@ -13,7 +13,7 @@ Paste this badge at the top of your GitHub README:
 Example:
 
 
----
+
 
 # Project Overview
 
@@ -33,11 +33,11 @@ This repository presents a complete end-to-end EEG research pipeline for:
 
 The project is based on the PhysioNet EEG Motor Movement/Imagery Dataset and implemented entirely in Python.
 
----
+
 
 # Repository Structure
 
-```text
+text
 EEG-Motor-Imagery-Classification/
 │
 ├── figures/
@@ -59,9 +59,7 @@ EEG-Motor-Imagery-Classification/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-```
 
----
 
 # Dataset
 
@@ -78,21 +76,21 @@ Subjects perform:
 
 Sampling frequency:
 
-```math
+math
 160 \ Hz
-```
+
 
 EEG channels:
 
-```math
+math
 64 \ channels
-```
 
----
+
+
 
 # EEG Processing Pipeline
 
-```text
+text
 Raw EEG
    ↓
 Bandpass Filtering
@@ -112,9 +110,9 @@ CSP Spatial Filtering
 Machine Learning / Deep Learning
    ↓
 Evaluation & Visualization
-```
 
----
+
+
 
 # Technologies Used
 
@@ -126,7 +124,7 @@ Evaluation & Visualization
 * PyTorch
 * MNE-Python
 
----
+
 
 # EEG Preprocessing
 
@@ -134,9 +132,9 @@ Evaluation & Visualization
 
 Applied frequency range:
 
-```math
+math
 1 \ Hz \leq f \leq 40 \ Hz
-```
+
 
 Purpose:
 
@@ -144,17 +142,17 @@ Purpose:
 * Remove high-frequency noise
 * Preserve neural rhythms
 
----
+
 
 ## Notch Filtering
 
 Power-line noise suppression:
 
-```math
+math
 f = 60 \ Hz
 ```
 
----
+
 
 ## Independent Component Analysis (ICA)
 
