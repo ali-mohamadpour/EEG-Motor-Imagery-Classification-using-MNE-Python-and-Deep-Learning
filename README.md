@@ -148,7 +148,7 @@ Purpose:
 
 Power-line noise suppression:
 
-math
+```math
 f = 60 \ Hz
 ```
 
