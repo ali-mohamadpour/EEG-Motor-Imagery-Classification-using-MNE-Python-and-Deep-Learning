@@ -339,13 +339,13 @@ pip install -r requirements.txt
 Clone repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/EEG-Motor-Imagery-Classification.git
+git clone https://github.com/ali-mohamadpour/EEG-Motor-Imagery-Classification-using-MNE-Python-and-Deep-Learning.git
 ```
 
 Enter project directory:
 
 ```bash
-cd EEG-Motor-Imagery-Classification
+cd EEG-Motor-Imagery-Classification-using-MNE-Python-and-Deep-Learning
 ```
 
 Run notebook:
@@ -357,7 +357,7 @@ jupyter notebook
 Open:
 
 ```text
-notebooks/eeg_pipeline.ipynb
+notebooks/EEG-Motor-Imagery-Classification-using-MNE-Python-and-Deep-Learning.ipynb
 ```
 
 
