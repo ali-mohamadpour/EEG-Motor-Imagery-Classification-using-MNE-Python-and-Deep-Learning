@@ -37,7 +37,7 @@ The project is based on the PhysioNet EEG Motor Movement/Imagery Dataset and imp
 
 # Repository Structure
 
-text
+```text
 EEG-Motor-Imagery-Classification/
 │
 ├── figures/
@@ -59,7 +59,7 @@ EEG-Motor-Imagery-Classification/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-
+```
 
 # Dataset
 
@@ -76,21 +76,21 @@ Subjects perform:
 
 Sampling frequency:
 
-math
+```math
 160 \ Hz
-
+```
 
 EEG channels:
 
-math
+```math
 64 \ channels
-
+```
 
 
 
 # EEG Processing Pipeline
 
-text
+```text
 Raw EEG
    ↓
 Bandpass Filtering
@@ -110,7 +110,7 @@ CSP Spatial Filtering
 Machine Learning / Deep Learning
    ↓
 Evaluation & Visualization
-
+```
 
 
 
@@ -132,9 +132,9 @@ Evaluation & Visualization
 
 Applied frequency range:
 
-math
+```math
 1 \ Hz \leq f \leq 40 \ Hz
-
+```
 
 Purpose:
 
@@ -174,7 +174,7 @@ ICA was used to suppress:
 * Muscle artifacts
 * Noise components
 
----
+
 
 # Feature Extraction
 
@@ -193,7 +193,7 @@ Where:
 * (C_1): covariance matrix
 * (W): spatial filters
 
----
+
 
 # Deep Learning Architecture
 
@@ -219,7 +219,7 @@ Optimizer:
 
 * Adam
 
----
+
 
 # Model Benchmark Results
 
@@ -233,7 +233,7 @@ Optimizer:
 | Multi-Subject CSP+SVM | 50.0%    |
 | Advanced EEGNet CV    | 55.0%    |
 
----
+
 
 # Visualizations
 
@@ -243,7 +243,7 @@ Visualization of multichannel EEG recordings before preprocessing.
 
 ![Raw EEG](figures/raw_eeg.png)
 
----
+
 
 ## Power Spectral Density (PSD)
 
@@ -251,7 +251,7 @@ Frequency-domain analysis showing neural rhythms.
 
 ![PSD](figures/psd.png)
 
----
+
 
 ## ICA Components
 
@@ -259,7 +259,7 @@ Independent components extracted for artifact removal.
 
 ![ICA](figures/ica_components.png)
 
----
+
 
 ## ERP Topographic Mapping
 
@@ -267,7 +267,7 @@ Spatial distribution of cortical activity.
 
 ![Topomap](figures/topomap.png)
 
----
+
 
 ## Time-Frequency Representation
 
@@ -275,7 +275,7 @@ Motor imagery dynamics across time and frequency.
 
 ![TFR](figures/time_frequency.png)
 
----
+
 
 ## Confusion Matrix
 
@@ -283,7 +283,7 @@ Classification performance visualization.
 
 ![Confusion Matrix](figures/confusion_matrix.png)
 
----
+
 
 ## Benchmark Comparison
 
@@ -291,7 +291,7 @@ Performance comparison between all models.
 
 ![Benchmark](figures/benchmark_models.png)
 
----
+
 
 ## EEGNet Training Curve
 
@@ -299,7 +299,7 @@ Training loss convergence over iterations.
 
 ![Training Curve](figures/training_curve.png)
 
----
+
 
 # Research Highlights
 
@@ -311,7 +311,7 @@ Training loss convergence over iterations.
 * Scientific EEG visualization
 * Reproducible neuroscience pipeline
 
----
+
 
 # Future Improvements
 
@@ -324,7 +324,7 @@ Potential future extensions:
 * Real-time BCI systems
 * Explainable AI for EEG
 
----
+
 
 # Installation
 
@@ -332,7 +332,7 @@ Potential future extensions:
 pip install -r requirements.txt
 ```
 
----
+
 
 # Running the Project
 
@@ -360,7 +360,7 @@ Open:
 notebooks/eeg_pipeline.ipynb
 ```
 
----
+
 
 # Google Colab Execution
 
@@ -374,7 +374,7 @@ Required packages:
 !pip install mne pyedflib torch xgboost scikit-learn
 ```
 
----
+
 
 # Citation
 
@@ -386,17 +386,9 @@ Required packages:
 }
 ```
 
----
+
 
 # License
 
 MIT License
 
----
-
-# Author
-
-Ali Mohammadpour
-
-Biomedical Engineering
-EEG Signal Processing | BCI | AI for Healthcare
