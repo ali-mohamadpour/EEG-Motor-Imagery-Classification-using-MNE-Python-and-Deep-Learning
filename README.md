@@ -8,21 +8,10 @@ Advanced EEG signal processing and motor imagery classification pipeline using M
 
 Paste this badge at the top of your GitHub README:
 
-```markdown
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_NOTEBOOK_LINK_HERE)
-```
-
-بعد از آپلود نوت‌بوک در GitHub لینک به این شکل می‌شود:
-
-```markdown
-https://colab.research.google.com/github/USERNAME/REPOSITORY/blob/main/notebooks/eeg_pipeline.ipynb
-```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZzYJCn3Bh8Xm3oseZIZyODRztNdgArER?usp=sharing)
 
 Example:
 
-```markdown
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alimohammadpour/EEG-Motor-Imagery-Classification/blob/main/notebooks/eeg_pipeline.ipynb)
-```
 
 ---
 
