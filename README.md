@@ -281,7 +281,7 @@ Motor imagery dynamics across time and frequency.
 
 Classification performance visualization.
 
-![Confusion Matrix](figures/confusion_matrix.png)
+![Confusion Matrix](figures/csp_confusion_matrix.png)
 
 
 
@@ -289,7 +289,7 @@ Classification performance visualization.
 
 Performance comparison between all models.
 
-![Benchmark](figures/benchmark_models.png)
+![Benchmark](figures/final_benchmark.png)
 
 
 
